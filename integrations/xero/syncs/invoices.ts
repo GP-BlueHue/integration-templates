@@ -98,7 +98,7 @@ const sync = createSync({
     description: 'Sync invoices from Xero.',
     version: '3.1.0',
     endpoints: [{ method: 'GET', path: '/syncs/invoices' }],
-    frequency: 'every hour',
+    frequency: 'every day',
     models: {
         Invoice: InvoiceSchema
     },
